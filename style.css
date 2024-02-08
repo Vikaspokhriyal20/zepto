@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arya;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: dosis;
+}
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.coming-soon img
+{
+    width: 12rem;
+    padding-bottom: 0.8rem;
+}
+
+
+.coming-soon
+{
+    padding: 1rem 1.5rem;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.content p
+{ 
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding: 0.8rem  0rem;
+    border-bottom: 0.5px solid grey;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0rem;
+}
+
+.child
+{
+    background-color: white;
+    padding: 2rem 3rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.child img
+{
+    width: 4rem;
+}
+
+
+.child p
+{
+    font-size: 0.9rem;
+    padding-top: 0.8rem;
+}
+
+
+@media screen and (max-width:660px) {
+
+    .grid-container
+    {
+        grid-template-columns: 1fr;
+    }
+    .card-info
+    {
+        text-align: left;
+    }
+    .child
+    {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
